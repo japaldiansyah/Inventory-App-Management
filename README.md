@@ -25,6 +25,8 @@ Developed for **AutoDiesel Store** to streamline stock tracking, low-stock alert
 | Tools | XAMPP, Git, Android Studio |
 
 ---
+Reza Faal
+📧 rezafaaldiansyah@gmail.com
+🌐 www.linkedin.com/in/reza-faaldiansyah-b01399375
 
-## 📁 Project Structure
 
