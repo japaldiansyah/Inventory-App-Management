@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarBarangActivity">
+
+    <!-- Layout Utama -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_rounded_hijau_pudar">
+
+            <!-- SearchView berada di kiri -->
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:queryHint="Search Barang..."
+                app:iconifiedByDefault="false"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp" />
+
+            <!-- ImageView (Scan QR) berada di kanan -->
+            <ImageView
+                android:id="@+id/scanQrCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_scan_qr"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="15dp"/>
+
+        </LinearLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp" />
+
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <!-- LinearLayout di bagian bawah dan berada di atas list -->
+    <LinearLayout
+        android:id="@+id/linearLayoutTambahBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/txtQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/txtTambahBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <Button
+                android:id="@+id/btnSelesai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green_white"
+                android:textColor="@color/black"
+                android:text="Selesai"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

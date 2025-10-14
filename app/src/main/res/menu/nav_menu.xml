@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_2"
+        android:title="Beranda"/>
+    <item
+        android:id="@+id/items"
+        android:icon="@drawable/ic_item_2"
+        android:title="Barang"/>
+    <item
+        android:id="@+id/transaction"
+        android:icon="@drawable/ic_transaction_2"
+        android:title="Keluar/Masuk"/>
+    <item
+        android:id="@+id/storage"
+        android:icon="@drawable/ic_storage"
+        android:title="Penyimpanan"/>
+</menu>
