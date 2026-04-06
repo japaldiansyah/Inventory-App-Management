@@ -41,7 +41,7 @@ Developed for **AutoDiesel Store** to streamline stock tracking, low-stock alert
 <p align="center">
   <img src="images/In Out Page.png" width="200"/>
   <img src="images/Location Page.png" width="200"/>
-  <img src="images/Search Location Page.png" width="200"/>
+  <img src="images/Search Items Location Page.png" width="200"/>
 </p>
 
 ---
