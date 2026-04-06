@@ -27,14 +27,21 @@ Developed for **AutoDiesel Store** to streamline stock tracking, low-stock alert
 ## 📸 App Preview
 
 <p align="center">
-  <img src="images/login.png" width="200"/>
-  <img src="images/dashboard.png" width="200"/>
-  <img src="images/stock.png" width="200"/>
+  <img src="images/main_page.png" width="200"/>
+  <img src="images/login_page.png" width="200"/>
+  <img src="images/register_page.png" width="200"/>
 </p>
 
 <p align="center">
-  <img src="images/add_product.png" width="200"/>
-  <img src="images/reports.png" width="200"/>
+  <img src="images/dashboard_page.png" width="200"/>
+  <img src="images/items_page.png" width="200"/>
+  <img src="images/add_items_page.png" width="200"/>
+</p>
+
+<p align="center">
+  <img src="images/in_out_page.png" width="200"/>
+  <img src="images/location_page.png" width="200"/>
+  <img src="images/search_location_page.png" width="200"/>
 </p>
 
 ---
