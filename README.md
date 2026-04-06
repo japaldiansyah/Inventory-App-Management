@@ -24,6 +24,19 @@ Developed for **AutoDiesel Store** to streamline stock tracking, low-stock alert
 | Database | MySQL |
 | Tools | XAMPP, Git, Android Studio |
 
+## 📸 App Preview
+
+<p align="center">
+  <img src="images/login.png" width="200"/>
+  <img src="images/dashboard.png" width="200"/>
+  <img src="images/stock.png" width="200"/>
+</p>
+
+<p align="center">
+  <img src="images/add_product.png" width="200"/>
+  <img src="images/reports.png" width="200"/>
+</p>
+
 ---
 Reza Faal
 📧 rezafaaldiansyah@gmail.com
